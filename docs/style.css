@@ -40,3 +40,21 @@ color: #ed800c;
 	color: white;
   }
   
+.error a:hover {
+	color: red;
+
+
+}
+
+p {
+
+color: white;
+
+}
+
+p a:hover{
+
+color: red;
+font-family: 'Luckiest Guy';
+
+}
