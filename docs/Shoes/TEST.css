@@ -1,0 +1,289 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+
+
+
+body {
+	height: 100px;
+	background-color: #287ebf; /* For browsers that do not support gradients */
+	background-image: linear-gradient(-90deg, #050C19, #050C19);
+  height: 100vh;
+  background-image: linear-gradient(-90deg, #050C19, #050C19);
+	background-color: #050C19; /* For browsers that do not support gradients */
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+
+
+.rectangleback {
+  width: 50%;
+  min-width: 1100px;
+  height: 550px;
+  background: #1A1A1A;
+  border-radius: 25px;
+  position: absolute;
+}
+
+
+
+.Shoepicture {
+
+  width: 250px;
+  height: 250px;
+  background: #262626;
+  position:absolute;
+  bottom: 260px;
+  left: 50px;
+  border-radius: 25px;
+
+
+}
+
+h2 {
+	font-family: 'Luckiest Guy';
+  position: absolute;
+	font-size: 35px;
+	color: #999999;
+  left: 330px;
+
+	}
+
+  h3 {
+    position: absolute;
+    font-family: 'Luckiest Guy';
+    font-size: 35px;
+    color: #CCCCCC;
+    left: 350px;
+    top: 70px;
+    
+  
+    }
+
+.time {
+  position: absolute;
+  font-family: 'Luckiest Guy';
+top: 150px;
+}
+
+.retailer {
+  position: absolute;
+  font-family: 'Luckiest Guy';
+top: 150px;
+left: -20px;
+}
+
+.retailprice {
+  position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+.retailtag {
+position:relative;
+  bottom: -140px;
+  left: -710px;
+
+
+}
+
+.resaletag {
+  position:relative;
+    bottom: -140px;
+    left: -550px;
+  
+  
+  }
+
+
+  .retailprice {
+    position:relative;
+      bottom: -125px;
+      left: -199px;
+    font-size: 55px;
+    
+    }
+
+
+.resaleprice {
+  position:relative;
+  bottom: -250px;
+  left: -339px;
+font-size: 55px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+  
+  .rectangleback {
+    width: 50%;
+    min-width: 700px;
+    height: 890px;
+    background: #1A1A1A;
+    border-radius: 15px;
+    position: absolute;
+  }
+
+  .Shoepicture {
+
+    width: 250px;
+    height: 250px;
+    background: #262626;
+    position:absolute;
+    bottom: 600px;
+    left: 20px;
+    border-radius: 25px;
+  
+  
+  }
+
+
+  .resalebox{
+    width:200px;
+    height:100px;
+    background:#262626;
+    position:absolute;
+    bottom: 490px;
+    left: 160px;
+  
+  }
+
+  .retailbox{
+    width:200px;
+    height:100px;
+    background:#262626;
+    position:absolute;
+    bottom: 490px;
+    left: 450px;
+  
+  }
+
+
+
+.resaleprice {
+  position:absolute;
+  bottom: 490px;
+  left: 480px;
+
+
+
+}
+
+
+.retailprice {
+  position:absolute;
+    bottom: 245px;
+    left: 100px;
+
+
+}
+
+.retailtag {
+  position:absolute;
+    bottom: 625px;
+    left: -130px;
+
+
+}
+
+.resaletag {
+  position:absolute;
+    bottom: 625px;
+    left: 160px;
+
+}
+
+
+.time h2 {
+  position:absolute;
+  bottom: -220px;
+
+
+
+}
+
+
+.retailer h3 {
+  position:relative;
+  bottom: -220px;
+
+
+
+}
+
+
+.descbox  {
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  background: #262626;
+  bottom: -100px;
+  border-radius: 5px;
+
+
+
+}
+
+.descbox h3 {
+	font-family: 'Luckiest Guy';
+  font-size: 24px;
+position: absolute;
+bottom: 100px;  
+left: 130px;
+
+
+
+
+
+
+
+
+}
+
+
+}
+
+
+
+@media screen and (min-width: 1200) {
+  .descbox h3 {
+    font-family: 'Luckiest Guy';
+    font-size: 32px;
+  position: absolute;
+  bottom: 1000000px;  
+  left: 1000030px;
+
+
+
+}
+
+
+
+}
