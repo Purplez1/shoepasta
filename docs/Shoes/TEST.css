@@ -105,6 +105,7 @@ top: 210px;
 }
 
 .retailer {
+  white-space: nowrap;
   position: absolute;
   font-family: 'Luckiest Guy';
 top: 110px;
