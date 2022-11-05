@@ -6,6 +6,11 @@
 
 
 
+.goback {
+position: inherit;
+right: 5px;
+}
+
 body {
 	height: 100px;
 	background-color: #287ebf; /* For browsers that do not support gradients */
@@ -32,16 +37,24 @@ body {
   position: absolute;
 }
 
+.month {
+  font-family: Tahoma, sans-serif;
+	font-size: 24px;
+  position:absolute;
+left: 320px;
+bottom: 508px;
+color: black;
 
+
+}
 
 .Shoepicture {
 
   width: 250px;
   height: 250px;
-  background: #262626;
   position:absolute;
-  bottom: 260px;
-  left: 50px;
+  bottom: 290px;
+  left: 20px;
   border-radius: 25px;
 
 
@@ -52,9 +65,27 @@ h2 {
   position: absolute;
 	font-size: 35px;
 	color: #999999;
-  left: 330px;
+  left: 320px;
 
 	}
+
+  
+.shoename h3 {
+    position: absolute;
+    font-family: 'Luckiest Guy';
+    font-size: 44px;
+    color: #CCCCCC;
+    left: 320px;
+    top: 40px;
+    
+  
+    }
+
+
+
+
+
+
 
   h3 {
     position: absolute;
@@ -70,14 +101,14 @@ h2 {
 .time {
   position: absolute;
   font-family: 'Luckiest Guy';
-top: 150px;
+top: 210px;
 }
 
 .retailer {
   position: absolute;
   font-family: 'Luckiest Guy';
-top: 150px;
-left: -20px;
+top: 110px;
+left: -30px;
 }
 
 .retailprice {
@@ -135,13 +166,24 @@ font-size: 55px;
 
 
 
-
-
-
-
-
 @media screen and (max-width: 1000px) {
   
+
+  .goback {
+    position: inherit;
+    right: 5px;
+
+    }
+    
+.month {
+
+
+
+  position: relative;
+  bottom: 5px;
+}
+
+
   .rectangleback {
     width: 50%;
     min-width: 700px;
@@ -155,7 +197,6 @@ font-size: 55px;
 
     width: 250px;
     height: 250px;
-    background: #262626;
     position:absolute;
     bottom: 600px;
     left: 20px;
@@ -223,7 +264,7 @@ font-size: 55px;
 
 .time h2 {
   position:absolute;
-  bottom: -220px;
+  
 
 
 
@@ -272,18 +313,4 @@ left: 130px;
 
 
 
-@media screen and (min-width: 1200) {
-  .descbox h3 {
-    font-family: 'Luckiest Guy';
-    font-size: 32px;
-  position: absolute;
-  bottom: 1000000px;  
-  left: 1000030px;
 
-
-
-}
-
-
-
-}
