@@ -1,10 +1,10 @@
-
 @font-face {
 	font-family: myFirstFont;
 	src: url(sansation_light.woff);
   }
-
-
+  
+  
+  
 
 
 
@@ -109,4 +109,70 @@ h2 {
   .closebtn:hover {
 	color: black;
   }
+
+
+
+  .space {
+	position: relative; /* the default for span */
+	width: 100px;
+	height: 200px;
+
+  }
   
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	width: 20%;
+	padding: 70px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+
+
+
+.infoslide {
+font-family: 'Courier New', Courier, monospace;
+font-size: 60px;
+color:white;
+
+}
+
+
+
+.infoslide h4 {
+font-size: 55px;
+
+
+
+}
+
+
+
+
+
+
+
+  @media screen and (max-width: 1000px) {
+
+	.column {
+		float: left;
+		width: 20%;
+		padding: 30px;
+	  }
+	  
+	  /* Clear floats after image containers */
+	  .row::after {
+		content: "";
+		clear: both;
+		display: table
+
+  }
+
+}
