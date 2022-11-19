@@ -1,122 +1,386 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
 
 
-  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/n1ryNy1/shoepasta.png">
+.goback {
+position: inherit;
+right: 5px;
+}
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width; initial-scale=0.5, maximum-scale=0.5, minimum-scale=0.5; " />
-  <meta charset="UTF-8">
-  <title></title>
-  <link href='https://fonts.googleapis.com/css?family=Luckiest Guy' rel='stylesheet'>
-  <link rel="stylesheet" href="TEST.css">
+body {
+	height: 100px;
+	background-color: #050C19; /* For browsers that do not support gradients */
+	background-image: linear-gradient(-90deg, #050C19, #050C19);
+  height: 100vh;
+  background-image: linear-gradient(-90deg, #050C19, #050C19);
+	background-color: #050C19; /* For browsers that do not support gradients */
+
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+
+
+.rectangleback {
+  width: 50%;
+  min-width: 1100px;
+  height: 550px;
+  background: #1A1A1A;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.month {
+  font-family: Tahoma, sans-serif;
+	font-size: 24px;
+  position:absolute;
+left: 320px;
+bottom: 508px;
+color: #595C5D;
+
+
+}
+
+.Shoepicture {
+
+  width: 250px;
+  height: 250px;
+  position:absolute;
+  bottom: 290px;
+  left: 20px;
+  border-radius: 25px;
+
+
+}
+
+h2 {
+	font-family: 'Luckiest Guy';
+  position: absolute;
+	font-size: 35px;
+	color: #999999;
+  left: 320px;
+
+	}
+
+  
+.shoename h3 {
+    position: absolute;
+    font-family: 'Luckiest Guy';
+    font-size: 44px;
+    color: #CCCCCC;
+    left: 320px;
+    top: 40px;
+    
+  
+    }
+
+
+
+
+
+
+
+  h3 {
+    position: absolute;
+    font-family: 'Luckiest Guy';
+    font-size: 35px;
+    color: #CCCCCC;
+    left: 350px;
+    top: 70px;
+    
+  
+    }
+
+.time {
+  position: absolute;
+  font-family: 'Luckiest Guy';
+top: 150px;
+}
+
+.retailer {
+  white-space: nowrap;
+  position: absolute;
+  font-family: 'Luckiest Guy';
+top: 110px;
+left: -30px;
+}
+
+.retailprice {
+  position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+.retailtag {
+position:relative;
+  bottom: -140px;
+  left: -710px;
+
+
+}
+
+.resaletag {
+  position:relative;
+    bottom: -140px;
+    left: -550px;
+  
+  
+  }
+
+
+  .retailprice {
+    position:relative;
+      bottom: -125px;
+      left: -199px;
+    font-size: 55px;
+    
+    }
+
+
+.resaleprice {
+  position:relative;
+  bottom: -250px;
+  left: -339px;
+font-size: 55px;
+
+}
+
+
+
+.releases {
+  position: absolute;
+    height: 80px;
+    width: 220px;
+    background-color: #595C5D;
+    border-radius: 5px;
+    bottom: 20%;
+    right: 15%;
+
+}
+
+.releases h4 {
+text-align: center;
+font-size: 60px;
+color: white;
+text-decoration: none !important;
+}
+
+
+.disclaimer {
+position: absolute;
+bottom: 100px;
+left: 200px;
+
+
+}
+
+.para {
+text-align: center;
+position: absolute;
+color: white;
+top: 900px;
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  
+.para {
+  text-align: center;
+  top: 1500px;
+
+
+
+}
+
+
+  .goback {
+    position: inherit;
+    left: 5px;
+    bottom: 400px;
+
+
+    }
+    
+.month {
+
+
+
+  position: relative;
+  bottom: 5px;
+}
+
+
+  .rectangleback {
+    width: 50%;
+    min-width: 700px;
+    height: 890px;
+    background: #1A1A1A;
+    border-radius: 15px;
+    position: absolute;
+  }
+
+  .Shoepicture {
+
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    bottom: 600px;
+    left: 20px;
+    border-radius: 25px;
+  
+  
+  }
+
+
+  .resalebox{
+    width:200px;
+    height:100px;
+    background:#262626;
+    position:absolute;
+    bottom: 490px;
+    left: 160px;
+  
+  }
+
+  .retailbox{
+    width:200px;
+    height:100px;
+    background:#262626;
+    position:absolute;
+    bottom: 490px;
+    left: 450px;
+  
+  }
+
+
+
+.resaleprice {
+  position:absolute;
+  bottom: 490px;
+  left: 480px;
+
+
+
+}
+
+
+.retailprice {
+  position:absolute;
+    bottom: 245px;
+    left: 100px;
+
+
+}
+
+.retailtag {
+  position:absolute;
+    bottom: 625px;
+    left: -130px;
+
+
+}
+
+.resaletag {
+  position:absolute;
+    bottom: 625px;
+    left: 160px;
+
+}
+
+
+.time h2 {
+  position:absolute;
   
 
-</head>
-<body>
+
+
+}
+
+
+.retailer h3 {
+  position:relative;
+  bottom: -220px;
+
+
+
+}
+
+
+.descbox  {
+  position: absolute;
+  width: 700px;
+  height: 200px;
+  background: #262626;
+  bottom: -100px;
+  border-radius: 5px;
+
+
+
+}
+
+.descbox h3 {
+	font-family: 'Luckiest Guy';
+  font-size: 24px;
+position: absolute;
+bottom: 100px;  
+left: 130px;
+}
+
+.releases {
+
+  position: absolute;
+    height: 80px;
+    width: 220px;
+    background-color: #595C5D;
+    border-radius: 5px;
+    bottom: 20%;
+    right: 15%;
 
   
+}
 
 
-  <div class="mainframe"> </div>
-  <div class="rectangleback">
+.disclaimer {
+position: relative;
+bottom: -500px;
+left: -10px;
 
-
-    <div class="goback">
-      <a href="../shoes.html">  <!--goes back to the main page ../ to exit out of folder-->
-        <img src="https://cdn.discordapp.com/attachments/874177826142683177/1033631941402042448/arrowleft.png" alt="go back"
-         width="100" 
-         height="100" >
-       </a>
-       </div>
-<div class="month">
-  <p>Dec 15</p> <!--Month and Day-->
-</div>
-
-
-
-<div class="shoename">
-  <h3>Ebay Dunks</h3><!--Name of shoe-->
-</div>
-
-  <div class="time">
-  <h2>NA</h2>           <!--Time PST/EST-->
-  </div>        
-  
-  <div class="retailer">
-  <h3>Skate Shops</h3>            <!--Retaileres releasing it-->
-  </div>
-
-  <div id="retailprice">
-  </div>
-
-  
-
-
-  
-
-  <div class="Shoepicture">            <!--Shoe picture-->
-    <img src="https://cdn.discordapp.com/attachments/1038911946205966396/1043644085111640064/ebay.png" width="250px" height="240px">
-    </div>
-
-
-      
-
-
-</div>
-    </div>
-  </div>
-</div>
-
-<div class="resalebox"></div>
-<div class="retailbox"></div>
-
-<div class="retailtag">
-  <h2>Retail </h2>
-</div>
-
-
-<div class="resaletag">
-  <h2>Resale </h2>
-</div>
-
-
-
-<div class="retailprice">
-<h2 class="retailprice">$130</h2>   <!--retail price-->
-</div>     
-
-<h2 class="resaleprice">$250+</h2>        <!--estimated resale price-->
-
-
-<div class="releases">
- <a href="https:youtube.com"target="_blank"><h4>Store   <!--store link to main release-->
-  </h4>
-</a> 
-</div>
-
-<div class="disclaimer">
-  <img src="https://cdn.discordapp.com/attachments/874177826142683177/1038600509092810842/info.png" width="5%" height="5%">
-  Resale predictions provided by StockX
-
-</div>
-
-<div class="para">
-  <h5>
-    The eBay/Nike SB Dunk Low “Sandy Bodecker” will be releasing next month at skate shops. The pair pays homage to the original eBay SB Dunk sample that was cut up and Sandy Bodecker, who had won the auction for the original eBay SB Dunk from 2003 and had done a lot of work with Nike SB</h5>
-  </div>
-
-
-</body>
-<footer>
+}
 
 
 
 
-</footer>
 
 
-</html>
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
